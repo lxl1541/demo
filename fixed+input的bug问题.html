@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width,user-scalable=1.0,minimum-scale=1.0,maximum-scale=1.0,initial-scale=1.0">
+	<style>
+		header,footer,main{
+			display: block;
+		}
+		header{
+			position:fixed;
+			height: 50px;
+			left:0;
+			right:0;
+			top: 0;
+			background-color: pink;
+		}
+		footer{
+			position:fixed;
+			height:34px;
+			left:0;
+			right:0;
+			bottom:0;
+		}
+		main{
+			margin-top:50px;
+			margin-bottom:34px;
+			height:2000px;
+		}
+		button{
+			height: 34px;
+			background-color: blue;
+			float: right;
+			color:white;
+			border:none;
+			width: 20%;
+		}
+		input{
+			width: 70%;
+			height: 28px;
+		}
+	</style>
+</head>
+<body class="layout-fixed">
+	<header></header>
+	<main></main>
+	<footer>
+		<input type="text" placeholder="Footer...">
+		<button class="submit">提交</button>
+	</footer>
+</body>
+</html>
